@@ -12,6 +12,14 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+## Using LibreTranslate API
+
+To use the LibreTranslate API, you need to download it from the following link:
+
+[LibreTranslate GitHub Repository](https://github.com/LibreTranslate/LibreTranslate/tree/main)
+
+⚠ **Disclaimer:** LibreTranslate is a self-hosted translation API. You must set it up on your own server or use a hosted instance. Check the official repository for installation instructions.
+
 ## Code scaffolding
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
