@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
     <button (click)="translate()">Traduire</button>
     @if(loading){
     <p>Traduction en cours ...</p>
-    }@else {
+    }@else if(loading === false) {
     <p>Traduction en anglais: {{ translatedText }}</p>
     }
   `,
